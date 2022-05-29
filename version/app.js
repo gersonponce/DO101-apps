@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Bienvenido al curso de sistemas distribuidos. Version 2' + '\n';
+    response = 'Bienvenido al curso de sistemas distribuidos. Version 3' + '\n';
 
     //send the response to the client
     res.send(response);
